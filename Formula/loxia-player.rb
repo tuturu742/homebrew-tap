@@ -2,7 +2,7 @@ class LoxiaPlayer < Formula
   desc "Keyboard-driven terminal music client for Emby"
   homepage "https://github.com/tuturu742/loxia-player"
   url "https://github.com/tuturu742/loxia-player/archive/refs/tags/v0.1.0-rc.1.tar.gz"
-  sha256 "c39bc3c0200aea924fe36bee8a7a078d5e040c7ec5fcce4eff402ccdfb321e4a"
+  sha256 "8392c79f49cf9ba962f4563be409aca92f70961d7ef7851dc695f6a415145520"
   license "GPL-3.0-or-later"
   head "https://github.com/tuturu742/loxia-player.git", branch: "master"
 
