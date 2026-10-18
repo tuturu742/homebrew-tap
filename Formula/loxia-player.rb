@@ -6,6 +6,12 @@ class LoxiaPlayer < Formula
   license "GPL-3.0-or-later"
   head "https://github.com/tuturu742/loxia-player.git", branch: "master"
 
+  bottle do
+    root_url "https://github.com/tuturu742/loxia-player/releases/download/v0.1.0"
+    sha256 cellar: :any, arm64_sequoia: "9a0d5701fa827c325859b948ccaf2213256d1e0022d86188689661700fc0f7bd"
+    sha256 cellar: :any, x86_64_linux:  "dfa10aed39503aa4ebc8ce22fc85e2f4ed03eeb957f35c4fe9f8897ea66d3bd3"
+  end
+
   depends_on "pkgconf" => :build
   depends_on "rust" => :build
   # Both a build and a runtime dependency: loxia links dynamically against libmpv,
